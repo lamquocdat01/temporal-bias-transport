@@ -1,0 +1,41 @@
+{
+  "route": "ov_cpu_fp32",
+  "n_frames": 600,
+  "g_a_agree": 1.0,
+  "g_b_agree": 1.0,
+  "frac_all_boxes_within_tol": 1.0,
+  "events_b_ref": 41,
+  "events_b_new": 41,
+  "bench_fps_inference_only": 4.121478379868125,
+  "per_video": {
+    "CDnet2014/thermal/park": {
+      "n_frames": 350,
+      "frac_same_count": 1.0,
+      "frac_all_matched": 1.0,
+      "max_dpx": 0.0,
+      "max_dconf": 9.999999999998899e-05,
+      "frac_bbox_le1px_conf_le1e3": 1.0,
+      "g_a_agree": 1.0,
+      "g_b_agree": 1.0,
+      "events_b_ref": 27,
+      "events_b_new": 27,
+      "events_a_ref": 23,
+      "events_a_new": 23
+    },
+    "LASIESTA/I_OC/I_OC_01": {
+      "n_frames": 250,
+      "frac_same_count": 1.0,
+      "frac_all_matched": 1.0,
+      "max_dpx": 0.0,
+      "max_dconf": 0.0,
+      "frac_bbox_le1px_conf_le1e3": 1.0,
+      "g_a_agree": 1.0,
+      "g_b_agree": 1.0,
+      "events_b_ref": 14,
+      "events_b_new": 14,
+      "events_a_ref": 13,
+      "events_a_new": 13
+    }
+  },
+  "events_b_rel_diff": 0.0
+}

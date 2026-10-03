@@ -1,0 +1,93 @@
+{
+  "gate": "B0.1",
+  "route": "cuda_fp32_kaggle",
+  "prereg_sha256": "de51479610e3272be22f272339fd9deebb4cf5eba3f54230761fbe549eaebcf1",
+  "tier1_bit_PASS": false,
+  "tier2_event_PASS": true,
+  "gate_tier": "event",
+  "PASS": true,
+  "tier1_criteria": {
+    "n_frames == 600": true,
+    "600/600 khung khớp đủ hộp": true,
+    "Δbbox == 0 px": true,
+    "Δconf == 0": false,
+    "sự kiện (b) 41/41": true
+  },
+  "tier2_criteria": {
+    "n_frames == 600": true,
+    "0 box không ghép có conf ≥ 0.6": true,
+    "g(b) trùng 600/600 khung": true,
+    "41/41 sự kiện (b) trùng biên": true,
+    "Δbbox ≤ 1 px": true,
+    "|Δconf| ≤ 0.005": true,
+    "0 cặp box person hai phía 0,7": true
+  },
+  "measured": {
+    "n_frames": 600,
+    "frames_all_matched": 600,
+    "max_dpx": 0.0,
+    "max_dconf": 9.999999999998899e-05,
+    "g_b_equal_frames": 600,
+    "person_straddle_07": 0,
+    "n_unmatched_ref": 0,
+    "n_unmatched_new": 0,
+    "max_unmatched_conf_ref": 0.0,
+    "max_unmatched_conf_new": 0.0,
+    "n_unmatched_conf_ge06": 0,
+    "events_b_ref": 41,
+    "events_b_new": 41,
+    "events_b_same_bounds": 41
+  },
+  "per_video": {
+    "CDnet2014/thermal/park": {
+      "n_frames": 350,
+      "frac_all_matched": 1.0,
+      "max_dpx": 0.0,
+      "max_dconf": 9.999999999998899e-05,
+      "g_b_equal": 350,
+      "person_straddle_07": 0,
+      "n_unmatched_ref": 0,
+      "n_unmatched_new": 0,
+      "max_unmatched_conf_ref": 0.0,
+      "max_unmatched_conf_new": 0.0,
+      "n_unmatched_conf_ge06": 0,
+      "events_b_ref": 27,
+      "events_b_new": 27,
+      "events_b_same_bounds": 27,
+      "events_b_only_ref": [],
+      "events_b_only_new": []
+    },
+    "LASIESTA/I_OC/I_OC_01": {
+      "n_frames": 250,
+      "frac_all_matched": 1.0,
+      "max_dpx": 0.0,
+      "max_dconf": 9.999999999998899e-05,
+      "g_b_equal": 250,
+      "person_straddle_07": 0,
+      "n_unmatched_ref": 0,
+      "n_unmatched_new": 0,
+      "max_unmatched_conf_ref": 0.0,
+      "max_unmatched_conf_new": 0.0,
+      "n_unmatched_conf_ge06": 0,
+      "events_b_ref": 14,
+      "events_b_new": 14,
+      "events_b_same_bounds": 14,
+      "events_b_only_ref": [],
+      "events_b_only_new": []
+    }
+  },
+  "env": {
+    "python": "3.12.13",
+    "torch": "2.9.1+cu128",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "gpu": "Tesla T4",
+    "ultralytics": "8.4.7",
+    "opencv": "4.13.0",
+    "numpy": "2.0.2",
+    "tf32": false,
+    "cudnn_deterministic": true,
+    "half": false,
+    "route": "cuda_fp32_kaggle"
+  }
+}

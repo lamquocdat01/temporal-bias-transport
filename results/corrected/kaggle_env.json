@@ -1,0 +1,14 @@
+{
+  "python": "3.12.13",
+  "torch": "2.9.1+cu128",
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla T4",
+  "ultralytics": "8.4.7",
+  "opencv": "4.13.0",
+  "numpy": "2.0.2",
+  "tf32": false,
+  "cudnn_deterministic": true,
+  "half": false,
+  "route": "cuda_fp32_kaggle"
+}

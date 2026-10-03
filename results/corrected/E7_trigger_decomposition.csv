@@ -1,0 +1,16 @@
+label,policy,reason,transported_rate,MEVA_rate,within_gap,share_of_within_gap
+"post-hoc, exploratory (not pre-registered)",P2,start,3.3059e-05,3.2839e-05,-2.1943e-07,8.5221e-07
+"post-hoc, exploratory (not pre-registered)",P2,cue,0.57037,0.30024,-0.27014,1.0491
+"post-hoc, exploratory (not pre-registered)",P2,hold,0,0,0,-0
+"post-hoc, exploratory (not pre-registered)",P2,backstop,0.0098064,0.02246,0.012654,-0.049143
+"post-hoc, exploratory (not pre-registered)",P2,total,0.58021,0.32273,-0.25748,1
+"post-hoc, exploratory (not pre-registered)",P3,start,3.3059e-05,3.2839e-05,-2.1943e-07,8.1776e-07
+"post-hoc, exploratory (not pre-registered)",P3,cue,0.60532,0.30822,-0.29711,1.1072
+"post-hoc, exploratory (not pre-registered)",P3,hold,0.063695,0.078819,0.015124,-0.056364
+"post-hoc, exploratory (not pre-registered)",P3,backstop,0.006662,0.020314,0.013652,-0.050876
+"post-hoc, exploratory (not pre-registered)",P3,total,0.67572,0.40739,-0.26833,1
+"post-hoc, exploratory (not pre-registered)",P4,start,3.3059e-05,3.2839e-05,-2.1943e-07,6.5775e-07
+"post-hoc, exploratory (not pre-registered)",P4,cue,0.56195,0.19897,-0.36298,1.0881
+"post-hoc, exploratory (not pre-registered)",P4,hold,0,0,0,-0
+"post-hoc, exploratory (not pre-registered)",P4,backstop,0.012153,0.04153,0.029377,-0.088058
+"post-hoc, exploratory (not pre-registered)",P4,total,0.57414,0.24053,-0.33361,1

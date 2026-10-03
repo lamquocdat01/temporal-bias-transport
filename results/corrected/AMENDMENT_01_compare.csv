@@ -1,0 +1,9 @@
+variant,H,threshold,observed,verdict,p,p_holm
+orig,H1,TV >= 0.3 in >= 2/3 defs; refuted if duty in CI for >= 2/3,TV a 0.522 / b' 0.608 / c 0.607; duty in CI 2/3,FAIL,0.00101,0.003996003996003996
+orig,H2,>= 1 metric with (A) and (B) in a majority of policy cells,processed_frac: A&B 0/3 (need 2); event_recall: A&B 0/7 (need 4); false_open_per_frame: A&B 0/7 (need 4),FAIL,0.030430393150395595,0.06086078630079119
+orig,H3,pass rate >= 0.80 of 192 cells,81/192 = 0.422; median error ratio 0.674; PI coverage 0.797,FAIL,0.9874919515363703,0.9874919515363703
+orig,H4,AUC(TV/r* -> flip) >= 0.75,"AUC 0.739 [0.635, 0.830]; flips 130/618; margin-score AUC 0.751",FAIL,0.000999000999000999,0.003996003996003996
+corrected,H1,TV >= 0.3 in >= 2/3 defs; refuted if duty in CI for >= 2/3,TV a 0.563 / b' 0.610 / c 0.608; duty in CI 2/3,FAIL,0.00101,0.003996003996003996
+corrected,H2,>= 1 metric with (A) and (B) in a majority of policy cells,processed_frac: A&B 0/3 (need 2); event_recall: A&B 0/7 (need 4); false_open_per_frame: A&B 0/7 (need 4),FAIL,0.021244049571602232,0.042488099143204464
+corrected,H3,pass rate >= 0.80 of 192 cells,76/192 = 0.396; median error ratio 0.688; PI coverage 0.771,FAIL,0.9985063607200447,0.9985063607200447
+corrected,H4,AUC(TV/r* -> flip) >= 0.75,"AUC 0.676 [0.566, 0.780]; flips 101/618; margin-score AUC 0.701",FAIL,0.000999000999000999,0.003996003996003996

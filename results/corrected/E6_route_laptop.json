@@ -1,0 +1,14 @@
+{
+ "clips": [
+  "2018-03-13.17-05-00.17-10-00.school.G639.r13",
+  "2018-03-13.17-10-00.17-15-00.school.G639.r13",
+  "2018-03-13.17-15-00.17-20-00.school.G639.r13",
+  "2018-03-13.17-20-00.17-25-00.school.G639.r13",
+  "2018-03-13.17-25-00.17-30-00.school.G639.r13",
+  "2018-03-13.17-30-00.17-35-00.school.G639.r13"
+ ],
+ "frames": 54005,
+ "g_b_frames_differing": 0,
+ "identical": true,
+ "consequence": "E6 route_laptop == main (identical g(b) and therefore g(b'), windows, policies)"
+}

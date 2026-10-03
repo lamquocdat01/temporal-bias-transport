@@ -1,0 +1,17 @@
+side,component,cls,share
+benchmark,R,lt300,0.34816
+benchmark,R,300-1800,0.08469
+benchmark,R,1800-18k,0.00000
+benchmark,R,gt18k,0.00000
+benchmark,R,censored,0.56714
+benchmark,S,idle,0.52149
+benchmark,S,partial,0.42539
+benchmark,S,full,0.05312
+MEVA S8,R,lt300,0.25455
+MEVA S8,R,300-1800,0.13952
+MEVA S8,R,1800-18k,0.32427
+MEVA S8,R,gt18k,0.18650
+MEVA S8,R,censored,0.09518
+MEVA S8,S,idle,0.74462
+MEVA S8,S,partial,0.14997
+MEVA S8,S,full,0.10542

@@ -1,0 +1,106 @@
+in_H4,pair,p1,p2,metric,M1_B,M2_B,delta_B,sign_B,r_star,r_star_lower,method
+False,P1_K2 vs P1_K5,P1_K2,P1_K5,processed_frac,0.500335,0.200535,0.299799,1,inf,inf,linear exact
+False,P1_K2 vs P1_K5,P1_K2,P1_K5,frame_recall,0.500066,0.200105,0.29996,1,inf,inf,shared-denominator exact
+False,P1_K2 vs P1_K5,P1_K2,P1_K5,event_recall,0.904812,0.792469,0.112343,1,inf,inf,shared-denominator exact
+False,P1_K2 vs P1_K5,P1_K2,P1_K5,false_open_per_frame,0.380251,0.152483,0.227768,1,0.951708,0.951708,linear exact
+True,P1_K2 vs P1_K5,P1_K2,P1_K5,precision,0.239369,0.238984,0.000385,1,0.197903,0.000192,general LP (attained upper value; certified lower bound alongside)
+False,P1_K2 vs P1_K10,P1_K2,P1_K10,processed_frac,0.500335,0.100602,0.399732,1,inf,inf,linear exact
+False,P1_K2 vs P1_K10,P1_K2,P1_K10,frame_recall,0.500066,0.100119,0.399947,1,0.451907,0.451907,shared-denominator exact
+False,P1_K2 vs P1_K10,P1_K2,P1_K10,event_recall,0.904812,0.700418,0.204393,1,0.394146,0.394146,shared-denominator exact
+False,P1_K2 vs P1_K10,P1_K2,P1_K10,false_open_per_frame,0.380251,0.07656,0.303691,1,inf,inf,linear exact
+True,P1_K2 vs P1_K10,P1_K2,P1_K10,precision,0.239369,0.238346,0.001023,1,0.197903,0.00051,general LP (attained upper value; certified lower bound alongside)
+False,P1_K2 vs P1_K30,P1_K2,P1_K30,processed_frac,0.500335,0.03398,0.466354,1,inf,inf,linear exact
+False,P1_K2 vs P1_K30,P1_K2,P1_K30,frame_recall,0.500066,0.033461,0.466605,1,inf,inf,shared-denominator exact
+False,P1_K2 vs P1_K30,P1_K2,P1_K30,event_recall,0.904812,0.554951,0.349861,1,inf,inf,shared-denominator exact
+False,P1_K2 vs P1_K30,P1_K2,P1_K30,false_open_per_frame,0.380251,0.025945,0.354306,1,inf,inf,linear exact
+True,P1_K2 vs P1_K30,P1_K2,P1_K30,precision,0.239369,0.235836,0.003533,1,0.197903,0.001762,general LP (attained upper value; certified lower bound alongside)
+True,P1_K2 vs P2,P1_K2,P2,processed_frac,0.500335,0.612375,-0.112041,-1,0.697627,0.697627,linear exact
+True,P1_K2 vs P2,P1_K2,P2,frame_recall,0.500066,0.688658,-0.188592,-1,inf,inf,shared-denominator exact
+True,P1_K2 vs P2,P1_K2,P2,event_recall,0.904812,0.903766,0.001046,1,0.002068,0.002068,shared-denominator exact
+True,P1_K2 vs P2,P1_K2,P2,false_open_per_frame,0.380251,0.078883,0.301368,1,inf,inf,linear exact
+True,P1_K2 vs P2,P1_K2,P2,precision,0.239369,0.269331,-0.029962,-1,0.193454,0.014692,general LP (attained upper value; certified lower bound alongside)
+True,P1_K2 vs P3,P1_K2,P3,processed_frac,0.500335,0.711106,-0.210771,-1,inf,inf,linear exact
+True,P1_K2 vs P3,P1_K2,P3,frame_recall,0.500066,0.988719,-0.488653,-1,0.451907,0.451907,shared-denominator exact
+True,P1_K2 vs P3,P1_K2,P3,event_recall,0.904812,0.903766,0.001046,1,0.002088,0.002088,shared-denominator exact
+True,P1_K2 vs P3,P1_K2,P3,false_open_per_frame,0.380251,0.07437,0.305882,1,0.951708,0.951708,linear exact
+True,P1_K2 vs P3,P1_K2,P3,precision,0.239369,0.332996,-0.093627,-1,0.451907,0.040934,general LP (attained upper value; certified lower bound alongside)
+True,P1_K2 vs P4,P1_K2,P4,processed_frac,0.500335,0.587282,-0.086948,-1,0.489657,0.489657,linear exact
+True,P1_K2 vs P4,P1_K2,P4,frame_recall,0.500066,0.67851,-0.178444,-1,inf,inf,shared-denominator exact
+True,P1_K2 vs P4,P1_K2,P4,event_recall,0.904812,0.901674,0.003138,1,0.007427,0.007427,shared-denominator exact
+True,P1_K2 vs P4,P1_K2,P4,false_open_per_frame,0.380251,0.070481,0.30977,1,0.951708,0.951708,linear exact
+True,P1_K2 vs P4,P1_K2,P4,precision,0.239369,0.2767,-0.037332,-1,0.267137,0.017504,general LP (attained upper value; certified lower bound alongside)
+False,P1_K5 vs P1_K10,P1_K5,P1_K10,processed_frac,0.200535,0.100602,0.099933,1,inf,inf,linear exact
+False,P1_K5 vs P1_K10,P1_K5,P1_K10,frame_recall,0.200105,0.100119,0.099987,1,0.451907,0.451907,shared-denominator exact
+False,P1_K5 vs P1_K10,P1_K5,P1_K10,event_recall,0.792469,0.700418,0.09205,1,0.394146,0.394146,shared-denominator exact
+False,P1_K5 vs P1_K10,P1_K5,P1_K10,false_open_per_frame,0.152483,0.07656,0.075923,1,0.951708,0.951708,linear exact
+True,P1_K5 vs P1_K10,P1_K5,P1_K10,precision,0.238984,0.238346,0.000638,1,0.197903,0.000319,general LP (attained upper value; certified lower bound alongside)
+False,P1_K5 vs P1_K30,P1_K5,P1_K30,processed_frac,0.200535,0.03398,0.166555,1,inf,inf,linear exact
+False,P1_K5 vs P1_K30,P1_K5,P1_K30,frame_recall,0.200105,0.033461,0.166645,1,inf,inf,shared-denominator exact
+False,P1_K5 vs P1_K30,P1_K5,P1_K30,event_recall,0.792469,0.554951,0.237517,1,inf,inf,shared-denominator exact
+False,P1_K5 vs P1_K30,P1_K5,P1_K30,false_open_per_frame,0.152483,0.025945,0.126538,1,0.951708,0.951708,linear exact
+True,P1_K5 vs P1_K30,P1_K5,P1_K30,precision,0.238984,0.235836,0.003148,1,0.197903,0.00157,general LP (attained upper value; certified lower bound alongside)
+True,P1_K5 vs P2,P1_K5,P2,processed_frac,0.200535,0.612375,-0.41184,-1,inf,inf,linear exact
+True,P1_K5 vs P2,P1_K5,P2,frame_recall,0.200105,0.688658,-0.488553,-1,inf,inf,shared-denominator exact
+True,P1_K5 vs P2,P1_K5,P2,event_recall,0.792469,0.903766,-0.111297,-1,0.394146,0.394146,shared-denominator exact
+True,P1_K5 vs P2,P1_K5,P2,false_open_per_frame,0.152483,0.078883,0.0736,1,0.951708,0.951708,linear exact
+True,P1_K5 vs P2,P1_K5,P2,precision,0.238984,0.269331,-0.030347,-1,0.195116,0.014878,general LP (attained upper value; certified lower bound alongside)
+True,P1_K5 vs P3,P1_K5,P3,processed_frac,0.200535,0.711106,-0.510571,-1,inf,inf,linear exact
+True,P1_K5 vs P3,P1_K5,P3,frame_recall,0.200105,0.988719,-0.788613,-1,0.451907,0.451907,shared-denominator exact
+True,P1_K5 vs P3,P1_K5,P3,event_recall,0.792469,0.903766,-0.111297,-1,0.394146,0.394146,shared-denominator exact
+True,P1_K5 vs P3,P1_K5,P3,false_open_per_frame,0.152483,0.07437,0.078113,1,0.951708,0.951708,linear exact
+True,P1_K5 vs P3,P1_K5,P3,precision,0.238984,0.332996,-0.094012,-1,0.451907,0.041086,general LP (attained upper value; certified lower bound alongside)
+True,P1_K5 vs P4,P1_K5,P4,processed_frac,0.200535,0.587282,-0.386747,-1,inf,inf,linear exact
+True,P1_K5 vs P4,P1_K5,P4,frame_recall,0.200105,0.67851,-0.478405,-1,inf,inf,shared-denominator exact
+True,P1_K5 vs P4,P1_K5,P4,event_recall,0.792469,0.901674,-0.109205,-1,0.394146,0.394146,shared-denominator exact
+True,P1_K5 vs P4,P1_K5,P4,false_open_per_frame,0.152483,0.070481,0.082002,1,inf,inf,linear exact
+True,P1_K5 vs P4,P1_K5,P4,precision,0.238984,0.2767,-0.037717,-1,0.269046,0.017685,general LP (attained upper value; certified lower bound alongside)
+False,P1_K10 vs P1_K30,P1_K10,P1_K30,processed_frac,0.100602,0.03398,0.066622,1,inf,inf,linear exact
+False,P1_K10 vs P1_K30,P1_K10,P1_K30,frame_recall,0.100119,0.033461,0.066658,1,inf,inf,shared-denominator exact
+False,P1_K10 vs P1_K30,P1_K10,P1_K30,event_recall,0.700418,0.554951,0.145467,1,0.394146,0.394146,shared-denominator exact
+False,P1_K10 vs P1_K30,P1_K10,P1_K30,false_open_per_frame,0.07656,0.025945,0.050615,1,inf,inf,linear exact
+True,P1_K10 vs P1_K30,P1_K10,P1_K30,precision,0.238346,0.235836,0.00251,1,0.197903,0.001251,general LP (attained upper value; certified lower bound alongside)
+True,P1_K10 vs P2,P1_K10,P2,processed_frac,0.100602,0.612375,-0.511773,-1,inf,inf,linear exact
+True,P1_K10 vs P2,P1_K10,P2,frame_recall,0.100119,0.688658,-0.588539,-1,inf,inf,shared-denominator exact
+True,P1_K10 vs P2,P1_K10,P2,event_recall,0.700418,0.903766,-0.203347,-1,0.394146,0.394146,shared-denominator exact
+True,P1_K10 vs P2,P1_K10,P2,false_open_per_frame,0.07656,0.078883,-0.002323,-1,0.028723,0.028723,linear exact
+True,P1_K10 vs P2,P1_K10,P2,precision,0.238346,0.269331,-0.030985,-1,0.197868,0.015186,general LP (attained upper value; certified lower bound alongside)
+True,P1_K10 vs P3,P1_K10,P3,processed_frac,0.100602,0.711106,-0.610504,-1,inf,inf,linear exact
+True,P1_K10 vs P3,P1_K10,P3,frame_recall,0.100119,0.988719,-0.8886,-1,0.451907,0.451907,shared-denominator exact
+True,P1_K10 vs P3,P1_K10,P3,event_recall,0.700418,0.903766,-0.203347,-1,inf,inf,shared-denominator exact
+True,P1_K10 vs P3,P1_K10,P3,false_open_per_frame,0.07656,0.07437,0.002191,1,0.020751,0.020751,linear exact
+True,P1_K10 vs P3,P1_K10,P3,precision,0.238346,0.332996,-0.09465,-1,0.451907,0.041339,general LP (attained upper value; certified lower bound alongside)
+True,P1_K10 vs P4,P1_K10,P4,processed_frac,0.100602,0.587282,-0.48668,-1,inf,inf,linear exact
+True,P1_K10 vs P4,P1_K10,P4,frame_recall,0.100119,0.67851,-0.578392,-1,0.451907,0.451907,shared-denominator exact
+True,P1_K10 vs P4,P1_K10,P4,event_recall,0.700418,0.901674,-0.201255,-1,inf,inf,shared-denominator exact
+True,P1_K10 vs P4,P1_K10,P4,false_open_per_frame,0.07656,0.070481,0.006079,1,0.08664,0.08664,linear exact
+True,P1_K10 vs P4,P1_K10,P4,precision,0.238346,0.2767,-0.038355,-1,0.272108,0.017985,general LP (attained upper value; certified lower bound alongside)
+True,P1_K30 vs P2,P1_K30,P2,processed_frac,0.03398,0.612375,-0.578395,-1,inf,inf,linear exact
+True,P1_K30 vs P2,P1_K30,P2,frame_recall,0.033461,0.688658,-0.655197,-1,0.451907,0.451907,shared-denominator exact
+True,P1_K30 vs P2,P1_K30,P2,event_recall,0.554951,0.903766,-0.348815,-1,0.394146,0.394146,shared-denominator exact
+True,P1_K30 vs P2,P1_K30,P2,false_open_per_frame,0.025945,0.078883,-0.052938,-1,0.951708,0.951708,linear exact
+True,P1_K30 vs P2,P1_K30,P2,precision,0.235836,0.269331,-0.033495,-1,0.208633,0.016407,general LP (attained upper value; certified lower bound alongside)
+True,P1_K30 vs P3,P1_K30,P3,processed_frac,0.03398,0.711106,-0.677126,-1,inf,inf,linear exact
+True,P1_K30 vs P3,P1_K30,P3,frame_recall,0.033461,0.988719,-0.955258,-1,inf,inf,shared-denominator exact
+True,P1_K30 vs P3,P1_K30,P3,event_recall,0.554951,0.903766,-0.348815,-1,0.394146,0.394146,shared-denominator exact
+True,P1_K30 vs P3,P1_K30,P3,false_open_per_frame,0.025945,0.07437,-0.048425,-1,inf,inf,linear exact
+True,P1_K30 vs P3,P1_K30,P3,precision,0.235836,0.332996,-0.09716,-1,0.451907,0.042332,general LP (attained upper value; certified lower bound alongside)
+True,P1_K30 vs P4,P1_K30,P4,processed_frac,0.03398,0.587282,-0.553302,-1,inf,inf,linear exact
+True,P1_K30 vs P4,P1_K30,P4,frame_recall,0.033461,0.67851,-0.64505,-1,inf,inf,shared-denominator exact
+True,P1_K30 vs P4,P1_K30,P4,event_recall,0.554951,0.901674,-0.346722,-1,inf,inf,shared-denominator exact
+True,P1_K30 vs P4,P1_K30,P4,false_open_per_frame,0.025945,0.070481,-0.044536,-1,0.951708,0.951708,linear exact
+True,P1_K30 vs P4,P1_K30,P4,precision,0.235836,0.2767,-0.040864,-1,0.283137,0.019168,general LP (attained upper value; certified lower bound alongside)
+True,P2 vs P3,P2,P3,processed_frac,0.612375,0.711106,-0.098731,-1,inf,inf,linear exact
+True,P2 vs P3,P2,P3,frame_recall,0.688658,0.988719,-0.300061,-1,inf,inf,shared-denominator exact
+True,P2 vs P3,P2,P3,event_recall,0.903766,0.903766,0,0,0.0,0.0,shared-denominator exact
+True,P2 vs P3,P2,P3,false_open_per_frame,0.078883,0.07437,0.004514,1,0.535409,0.535409,linear exact
+True,P2 vs P3,P2,P3,precision,0.269331,0.332996,-0.063665,-1,0.358404,0.02735,general LP (attained upper value; certified lower bound alongside)
+True,P2 vs P4,P2,P4,processed_frac,0.612375,0.587282,0.025093,1,0.102131,0.102131,linear exact
+True,P2 vs P4,P2,P4,frame_recall,0.688658,0.67851,0.010148,1,0.019515,0.019515,shared-denominator exact
+True,P2 vs P4,P2,P4,event_recall,0.903766,0.901674,0.002092,1,0.008107,0.008107,shared-denominator exact
+True,P2 vs P4,P2,P4,false_open_per_frame,0.078883,0.070481,0.008402,1,0.456112,0.456112,linear exact
+True,P2 vs P4,P2,P4,precision,0.269331,0.2767,-0.007369,-1,0.071992,0.003304,general LP (attained upper value; certified lower bound alongside)
+True,P3 vs P4,P3,P4,processed_frac,0.711106,0.587282,0.123823,1,inf,inf,linear exact
+True,P3 vs P4,P3,P4,frame_recall,0.988719,0.67851,0.310208,1,inf,inf,shared-denominator exact
+True,P3 vs P4,P3,P4,event_recall,0.903766,0.901674,0.002092,1,0.00816,0.00816,shared-denominator exact
+True,P3 vs P4,P3,P4,false_open_per_frame,0.07437,0.070481,0.003889,1,0.177221,0.177221,linear exact
+True,P3 vs P4,P3,P4,precision,0.332996,0.2767,0.056296,1,0.265312,0.022903,general LP (attained upper value; certified lower bound alongside)

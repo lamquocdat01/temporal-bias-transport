@@ -1,0 +1,49 @@
+{
+ "equality_example": {
+  "r_star": 0.25,
+  "w": [
+   0.25,
+   0.75
+  ]
+ },
+ "closed_form_not_tight_example": {
+  "r_star": 0.49999999999999994,
+  "closed_form": 0.1318181818181818
+ },
+ "linear_random_instances_ok": 155,
+ "charnes_cooper_bruteforce_max_violation": 8.881784197001252e-16,
+ "shared_den_example": {
+  "r_star": 0.02500000000000001
+ },
+ "general_ratio_vs_grid_bruteforce": [
+  {
+   "upper_lp": Infinity,
+   "grid": Infinity,
+   "certified_lower": Infinity
+  },
+  {
+   "upper_lp": 0.09976642718704293,
+   "grid": 0.10141527462285967,
+   "certified_lower": 0.09976577758789062
+  },
+  {
+   "upper_lp": 0.4147211520177607,
+   "grid": 0.41533588882477057,
+   "certified_lower": 0.37007713317871094
+  },
+  {
+   "upper_lp": 0.16024139332984041,
+   "grid": 0.16296684423508354,
+   "certified_lower": 0.15502071380615234
+  },
+  {
+   "upper_lp": 0.33468721723956035,
+   "grid": 0.3367723288214525,
+   "certified_lower": 0.3145112991333008
+  }
+ ],
+ "bounds_example": {
+  "lo": 0.325,
+  "hi": 0.7
+ }
+}

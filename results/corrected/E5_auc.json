@@ -1,0 +1,37 @@
+{
+ "n_evaluations": 648,
+ "n_defined": 618,
+ "n_flips": 101,
+ "n_nonflips": 517,
+ "AUC": 0.6760729264415803,
+ "AUC_ci": [
+  0.5660813556348693,
+  0.7795545434281546
+ ],
+ "p": 0.000999000999000999,
+ "AUC_margin_sensitivity": 0.7014861060574142,
+ "inconclusive": false,
+ "PASS": false,
+ "flips_by_metric": {
+  "event_recall": {
+   "sum": 28,
+   "size": 105
+  },
+  "false_open_per_frame": {
+   "sum": 13,
+   "size": 120
+  },
+  "frame_recall": {
+   "sum": 4,
+   "size": 105
+  },
+  "precision": {
+   "sum": 24,
+   "size": 168
+  },
+  "processed_frac": {
+   "sum": 32,
+   "size": 120
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "block": "G331_2018-03-07_165000",
+ "definition": "bprime",
+ "frames_block": 90068,
+ "dominant": {
+  "key": "full|gt30|lt300|C1",
+  "S": "full",
+  "D": "gt30",
+  "R": "lt300",
+  "C": "C1",
+  "frames": 88868,
+  "n_win": 297,
+  "share": 0.9866767331349647,
+  "h_v2": "P3:full|gt30|lt1800|C0",
+  "h_v1": "U"
+ },
+ "bench_support_raw": {
+  "n_win": 5,
+  "n_vid": 5,
+  "frames": 1050
+ },
+ "v1_status": {
+  "h": "U",
+  "in_strata_map": [
+   "U"
+  ]
+ },
+ "v2_target_cell": {
+  "cell": "P3:full|gt30|lt1800|C0",
+  "members": [
+   {
+    "key": "full|gt30|lt300|C0",
+    "n_win": 22,
+    "n_vid": 9,
+    "frames": 6600
+   },
+   {
+    "key": "full|gt30|lt300|C1",
+    "n_win": 5,
+    "n_vid": 5,
+    "frames": 1050
+   }
+  ],
+  "n_win": 27,
+  "n_vid": 13,
+  "frames": 7650,
+  "w_B_v2": 0.00630294
+ },
+ "strata_in_block": [
+  {
+   "key": "full|gt30|lt300|C1",
+   "h_v2_main": "P3:full|gt30|lt1800|C0",
+   "h_v1_main": "U",
+   "frames": 88868,
+   "n_win": 297,
+   "share": 0.9866767331349647
+  },
+  {
+   "key": "partial|gt30|lt300|C1",
+   "h_v2_main": "P3:partial|gt30|lt1800|C0",
+   "h_v1_main": "U",
+   "frames": 600,
+   "n_win": 2,
+   "share": 0.006661633432517653
+  },
+  {
+   "key": "full|gt30|cens>=lt300|C1",
+   "h_v2_main": "U",
+   "h_v1_main": "U",
+   "frames": 300,
+   "n_win": 1,
+   "share": 0.0033308167162588265
+  },
+  {
+   "key": "partial|gt30|lt300|C0",
+   "h_v2_main": "partial|gt30|lt300|C0",
+   "h_v1_main": "partial|gt30|lt300|C0",
+   "frames": 300,
+   "n_win": 1,
+   "share": 0.0033308167162588265
+  }
+ ]
+}

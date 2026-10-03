@@ -1,0 +1,101 @@
+{
+  "checks": {
+    "videos": {
+      "BMC": 20,
+      "CDnet2014": 53,
+      "LASIESTA": 48
+    },
+    "events": {
+      "BMC": 261,
+      "CDnet2014": 2516,
+      "LASIESTA": 393
+    },
+    "frames_total": 166589,
+    "frames_by_dataset": {
+      "BMC": 29991,
+      "CDnet2014": 118173,
+      "LASIESTA": 18425
+    },
+    "frames_expected": 166589,
+    "frames_match": true,
+    "virat_stub_frames_dropped": 5000,
+    "virat_rows_in_events_durations": 0,
+    "g_t_equals_hasbox_all_frames": true,
+    "viratp_frames": 41823,
+    "viratp_gt_vs_rebuilt_person07_mismatch_frames": 0,
+    "viratp_events_def_b": 1119
+  },
+  "summary": {
+    "CDnet2014": {
+      "median_duty_cycle_a": 0.9190909090909091,
+      "median_longest_idle_sec_a": 1.68,
+      "median_longest_idle_frames_a": 22.0,
+      "median_event_rate_per_min_a": 11.25,
+      "median_duty_cycle_b": 0.05714285714285714,
+      "median_longest_idle_sec_b": 39.48,
+      "median_longest_idle_frames_b": 964.0,
+      "median_event_rate_per_min_b": 7.5,
+      "median_duty_cycle_bp": 0.09714285714285714,
+      "median_longest_idle_sec_bp": 39.48,
+      "median_longest_idle_frames_bp": 964.0,
+      "median_event_rate_per_min_bp": 1.5789473684210527,
+      "n_videos": 53,
+      "median_clip_sec": 80.0
+    },
+    "LASIESTA": {
+      "median_duty_cycle_a": 0.7433333333333333,
+      "median_longest_idle_sec_a": 1.64,
+      "median_longest_idle_frames_a": 41.0,
+      "median_event_rate_per_min_a": 7.0588235294117645,
+      "median_duty_cycle_b": 0.54,
+      "median_longest_idle_sec_b": 3.94,
+      "median_longest_idle_frames_b": 98.5,
+      "median_event_rate_per_min_b": 20.0,
+      "median_duty_cycle_bp": 0.5589999999999999,
+      "median_longest_idle_sec_bp": 3.94,
+      "median_longest_idle_frames_bp": 98.5,
+      "median_event_rate_per_min_bp": 4.642857142857142,
+      "n_videos": 48,
+      "median_clip_sec": 13.0
+    },
+    "BMC": {
+      "median_duty_cycle_a": 1.0,
+      "median_longest_idle_sec_a": 0.0,
+      "median_longest_idle_frames_a": 0.0,
+      "median_event_rate_per_min_a": 1.0006671114076051,
+      "median_duty_cycle_b": 0.0010006671114076052,
+      "median_longest_idle_sec_b": 49.400000000000006,
+      "median_longest_idle_frames_b": 1235.0,
+      "median_event_rate_per_min_b": 0.5003335557038026,
+      "median_duty_cycle_bp": 0.0010006671114076052,
+      "median_longest_idle_sec_bp": 49.400000000000006,
+      "median_longest_idle_frames_bp": 1235.0,
+      "median_event_rate_per_min_bp": 0.5003335557038026,
+      "n_videos": 20,
+      "median_clip_sec": 59.96
+    },
+    "VIRAT-P": {
+      "median_duty_cycle_a": 1.0,
+      "median_longest_idle_sec_a": 0.0,
+      "median_longest_idle_frames_a": 0.0,
+      "median_event_rate_per_min_a": 0.6563494365579766,
+      "median_duty_cycle_b": 0.13682455770736085,
+      "median_longest_idle_sec_b": 23.516666666666666,
+      "median_longest_idle_frames_b": 705.5,
+      "median_event_rate_per_min_b": 32.42319170924404,
+      "median_duty_cycle_bp": 0.18116662689253948,
+      "median_longest_idle_sec_bp": 23.516666666666666,
+      "median_longest_idle_frames_bp": 705.5,
+      "median_event_rate_per_min_bp": 12.764873106052459,
+      "n_videos": 10,
+      "median_clip_sec": 100.31666666666666
+    },
+    "ALL121": {
+      "median_duty_cycle_a": 0.9190909090909091,
+      "median_longest_idle_sec_a": 0.36,
+      "median_duty_cycle_b": 0.3333333333333333,
+      "median_longest_idle_sec_b": 12.72,
+      "mean_frames_per_video": 1376.7685950413222
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Data license
+
+All non-code files of this repository (directories spec/, profiles/, results/, detections/, provenance/, paper/)
+are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 Dat Lam Quoc. Attribution: cite the repository as given in CITATION.cff.
+
+Third-party material and attribution
+- MEVA. The footage-side files (profiles/*meva*, results/*/meva_*, detections/) are derived statistics of
+  "Multiview Extended Video with Activities" (MEVA) dataset by Kitware Inc. and the Intelligence Advanced Research
+  Projects Activity (IARPA), which is licensed under a Creative Commons Attribution 4.0 International License
+  (http://creativecommons.org/licenses/by/4.0/). Source: https://mevadata.org/ . Changes: a subset of 5-minute clips
+  was decoded; per-frame person detections (YOLO26s-seg) and per-window statistics were computed. No video or frame
+  of MEVA is redistributed here.
+- Benchmark clips (CDnet 2014, LASIESTA, BMC, VIRAT). Only per-window statistics derived from detections are
+  released; no frame, image or annotation of these datasets is redistributed. Their own licenses and citation
+  requirements apply to the original data.

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite them as below."
+title: "temporal-bias-transport: temporal profiles, transport estimates and sharp bounds for video analytics benchmarks vs. long continuous footage"
+type: dataset
+authors:
+  - family-names: "Lam Quoc"
+    given-names: "Dat"
+    affiliation: "FPT School of Business and Technology (FSB), FPT University, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0009-0004-5432-9343"
+version: "v1.0-tmm"
+date-released: "2026-10-03"
+license: [MIT, CC-BY-4.0]
+keywords:
+  - video analytics evaluation
+  - benchmark bias
+  - transportability
+  - partial identification
+  - pre-registration
+  - MEVA
+repository-code: "https://github.com/lamquocdat01/temporal-bias-transport"
+preferred-citation:
+  type: article
+  title: "Temporal Structure of Video Analytics Benchmarks: Transport, Sharp Bounds, and Stateful Policies on Long Continuous Footage"
+  authors:
+    - family-names: "Lam Quoc"
+      given-names: "Dat"
+      affiliation: "FPT School of Business and Technology (FSB), FPT University, Ho Chi Minh City, Vietnam"
+      orcid: "https://orcid.org/0009-0004-5432-9343"
+  journal: "IEEE Transactions on Multimedia"
+  year: 2026
+  notes: "Manuscript under submission, IEEE TMM"
